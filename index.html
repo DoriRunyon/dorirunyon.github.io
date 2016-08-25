@@ -59,7 +59,7 @@
                         <a class="page-scroll" href="#download">Thistle Internship</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">About</a>
+                        <a class="page-scroll" href="#contact">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -89,23 +89,31 @@
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+            <div class="col-lg-4">
+                <h2>My Hackbright Project</h2>
+                <p>I chose to work on this project because I am a big fan of Spotify's app and I love live music. I wanted to create an app that you could tell your favorite artist and it would branch out through Spotify's related artists relationships and find upcoming concerts you might like in your city. One of the biggest challenges I faced while making this was speed. Searches hit both the Spotify and Songkick (for event data) APIs and took 20 seconds. After many different attempts at solving this problem I came across the grequests library and used asynchronous requests to reduce search speed to about 4 seconds.</p>
+                <p><span style="font-weight: bold;">Tech Stack: </span> Python, Flask, PostgreSQL, SQLAlchemy, JavaScript</p>
+                <p><span style="font-weight: bold;">APIs: </span>Spotify, Songkick</p>
+                <p><span style="font-weight: bold;">Features: </span>Search for concerts based on Spotify's related artist relationships. Users could save concerts to their profile, see their saved events on a map and create a playlist based on their saved events. See the code <a href="https://github.com/DoriRunyon/Events-Project">here</a>.</p>
+            </div>
+            <div class="col-lg-8">
+                <div class="hackbright-project">
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+    <section id="download" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-4">
+                <h2>Thistle Internship</h2>
+                <p>I did an internship with <a href="https://www.thistle.co/">Thistle</a>, a healthy food and juice delivery company based in Berkeley. The project I worked on as an intern was to integrate Thistle's CRM (Intercom) with Twilio. The idea for the integration came about because customer service had to switch back and forth between two systems in order to respond to customers. Some customers were chatting with them online via Intercom and others were texting into a Google voice number for support. This meant customer service reps had to switch between the two interfaces and also that communication for each customer was being saved on two systems. With the Twilio Intercom integration, all customer conversations for will be managed within Intercom. For more detail on how this was accomplished, check out this <a href="https://docs.google.com/document/d/13GoPHXNSoh9ixLFzgsE7Q85t58GaMkhjP7gYFiVZP3E/edit?usp=sharing">article</a> I wrote.</p>
+                <p><span style="font-weight: bold;">Tech Stack: </span> Python, Django</p>
+                <p><span style="font-weight: bold;">APIs: </span>Intercom, Twilio</p>
+            </div>
+            <div class="col-lg-8">
+                <div class="thistle-internship">
                 </div>
             </div>
         </div>
@@ -115,32 +123,35 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                <h3>Please feel free to reach out and say hello!</h3>
+                <p>I am currently tinkering around with D3 and working on making an iOS app.</p>
+                <p><a href="mailto:feedback@startbootstrap.com">dorileerunyon@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://www.linkedin.com/in/dorirunyon" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/DoriRunyon" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
+        
                 </ul>
+
+                <div class="col-lg-12">
+                <div class="me">
+                </div>
+            </div>
             </div>
         </div>
     </section>
 
     <!-- Map Section -->
-    <div id="map"></div>
+   <!--  <div id="map"></div> -->
 
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p>Copyright &copy; DR 2016</p>
         </div>
     </footer>
 
