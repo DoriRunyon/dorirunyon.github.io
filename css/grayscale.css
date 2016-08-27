@@ -84,7 +84,7 @@ a:focus {
 }
 .navbar-custom .nav li a:hover {
   /*color: rgba(255, 255, 255, 0.8);*/
-  color: gray;
+  color: #1d9b6c;
   outline: none;
   background-color: transparent;
 }
@@ -100,7 +100,7 @@ a:focus {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .navbar-custom .nav li.active a:hover {
-  color: gray;
+  color: #1d9b6c;
 
 }
 @media (min-width: 768px) {
@@ -139,7 +139,7 @@ a:focus {
 }
 .intro .intro-body .brand-heading {
   font-size: 40px;
-  color: gray;
+  color: black;
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
@@ -323,7 +323,7 @@ body {
 }
 
 .hackbright-project {
-  height: 350px;
+  height: 400px;
   background: url(../img/broadcast_search_sm.png) no-repeat center center scroll;
 }
 
