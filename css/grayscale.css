@@ -126,7 +126,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/snow.jpeg) no-repeat bottom center scroll;
+  background: url(../img/scott-webb.jpg) no-repeat bottom center scroll;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -348,5 +348,9 @@ body {
 }
 
 #hackathon {
+  text-align: left;
+}
+
+#bleepie {
   text-align: left;
 }
