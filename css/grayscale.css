@@ -125,7 +125,7 @@ a:focus {
   height: auto;
   padding: 100px 0;
   text-align: center;
-  color: white;
+  color: gray;
   background: url(../img/scott-webb.jpg) no-repeat bottom center scroll;
   background-color: white;
   -webkit-background-size: cover;
